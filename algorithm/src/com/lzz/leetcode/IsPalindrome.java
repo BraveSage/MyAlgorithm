@@ -1,4 +1,4 @@
-package com.lzz.sortalgorithm;
+package com.lzz.leetcode;
 
 /**
  * 判断是否是回文数

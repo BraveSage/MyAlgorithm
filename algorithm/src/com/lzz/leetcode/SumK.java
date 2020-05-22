@@ -1,4 +1,4 @@
-package com.lzz.sortalgorithm;
+package com.lzz.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.lzz.sortalgorithm;
+package com.lzz.leetcode;
 
 public class SubtractProductAndSum {
     public static int subtractProductAndSum(int n) {

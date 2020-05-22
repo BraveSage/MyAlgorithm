@@ -1,4 +1,4 @@
-package com.lzz.sortalgorithm;
+package com.lzz.leetcode;
 
 /**
  * 数组中乘积最大的连续子数组，返回乘积

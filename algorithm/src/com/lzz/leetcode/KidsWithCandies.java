@@ -1,4 +1,4 @@
-package com.lzz.sortalgorithm;
+package com.lzz.leetcode;
 
 import java.util.ArrayList;
 import java.util.Collection;

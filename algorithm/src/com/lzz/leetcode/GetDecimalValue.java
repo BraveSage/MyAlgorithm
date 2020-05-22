@@ -1,6 +1,4 @@
-package com.lzz.sortalgorithm;
-
-import java.math.BigInteger;
+package com.lzz.leetcode;
 
 /**
  * 二进制链表转整数
