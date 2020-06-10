@@ -54,6 +54,6 @@ public class IsPalindrome {
 
 
     public static void main(String[] args) {
-        System.out.println(isPalindrome2(123321));
+        System.out.println(isPalindrome2(1235321));
     }
 }
