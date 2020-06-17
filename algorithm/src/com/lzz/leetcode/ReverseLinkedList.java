@@ -17,14 +17,14 @@ public class ReverseLinkedList {
         return newHead;
     }
     //循环
-    public static Node reverseList(Node node) {
+    public static Node reverseList(Node head) {
         Node pre = null;
         Node next = null;
-        while (node != null) {
-            next = node.next;
-            node.next = pre;
-            pre = node;
-            node = next;
+        while (head != null) {
+            next = head.next;
+            head.next = pre;
+            pre = head;
+            head = next;
         }
         return pre;
     }
