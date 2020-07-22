@@ -3,7 +3,7 @@ package com.lzz.book.algorithm.sort;
 /**
  * 自顶向下的归并排序
  */
-public class MergeSortInDown extends MergeSort{
+public class MergeSortByDown extends MergeSort{
 
 
     public static void sort(int[] nums){
