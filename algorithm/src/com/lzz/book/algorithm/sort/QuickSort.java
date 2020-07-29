@@ -49,7 +49,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] nums = {6, 8, 2, 5, 4};
+        int[] nums = {11,18,1,20,5,12,5,16,21,9,13,17,3,24,15,19};
         sort(nums);
         Example.show(nums);
 
