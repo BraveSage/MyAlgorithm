@@ -1,5 +1,9 @@
 package com.lzz.book.algorithm.sort.heap;
 
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+
 /**
  * 堆的基础方法
  * @author lzz
@@ -46,5 +50,30 @@ public class HeapAssistive {
             exchange(value,j);
             value = j;
         }
+    }
+
+    static Map hasSolvedList = new HashMap<Integer, Integer>();
+
+    public static void main(String[] args) {
+        int f = f(7);
+        hasSolvedList.forEach((o, o2) -> {
+            System.out.println(o + "--->" + o2);
+        });
+        System.out.println(f);
+    }
+
+
+    static int f(int n) {
+        if (n == 1) return 1;
+        if (n == 2) return 2;
+
+        // hasSolvedList可以理解成一个Map，key是n，value是f(n)
+        if (hasSolvedList.containsKey(n)) {
+            return (Integer) hasSolvedList.get(n);
+        }
+
+        int ret = f(n-1) + f(n-2);
+        hasSolvedList.put(n, ret);
+        return ret;
     }
 }
